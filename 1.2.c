@@ -1,16 +1,17 @@
 #include <stdio.h>
-#include <math.h>
 
 /**
  * @brief Вычисляет площать прямоугольника с заданной стороной
- * @param a сторона прямоугольника
+ * @param a Сторона прямоугольника
+ * @param n Коэффицент для вычисления второй стороны
  * @return Рассчитанное значение
  */
 double square(const double a, const double n);
 
 /**
  * @brief Вычисляет периметр прямоугольника с заданной стороной
- * @param a сторона прямоугольника
+ * @param a Сторона прямоугольника
+ * @param n Коэффицент для вычисления второй стороны
  * @return Рассчитанное значение
  */
 double perimeter(const double a, const double n);
